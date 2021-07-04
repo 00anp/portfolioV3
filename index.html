@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Alfonso's Portfolio</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+      crossorigin="anonymous"
+    />
+    <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <img src="/img/logo.png" alt="" />
+      </div>
+      <button class="nav-toggle" aria-label="toggle navigation">
+        <span class="hamburger"></span>
+      </button>
+      <nav class="nav">
+        <ul class="nav__list">
+          <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+          <li class="nav__item">
+            <a href="#services" class="nav__link">My Services</a>
+          </li>
+          <li class="nav__item">
+            <a href="#about" class="nav__link">About Me</a>
+          </li>
+          <li class="nav__item">
+            <a href="#work" class="nav__link">My Work</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <!--Introduction-->
+    <section class="intro" id="home">
+      <h1 class="section__title section__title--intro">
+        Hi, I am <strong>Alfonso Núñez</strong>
+      </h1>
+      <p class="section__subtitle section__subtitle--intro"></p>
+      <img src="/img/alfonso.jpg" class="profile-pic" alt="A picture of Alfonso" />
+    </section>
+
+    <!--My Services-->
+    <section class="my-services" id="services">
+      <h2 class="section__title section__title--services">What I do</h2>
+      <div class="services">
+        <div class="service">
+          <h3>Full Stack Development</h3>
+          <p>I build web applications that are responsive and customizable to your
+            needs.</p>
+        </div>
+      <a href="#work" class="btn">My Work</a>
+    </section>
+
+    <!--About me -->
+    <section class="about-me" id="about">
+      <h2 class="section__title section__title--about">Who I am</h2>
+      <p class="section__subtitle section__subtitle--about"></p>
+
+      <div class="about-me__body">
+        <p>I'm Alfonso Núñez, Full Stack Developer based in Guadalajara, Mx. </p>
+      </div>
+      <a href="https://github.com/00anp" target="_blank">
+        <img src="/img/GitHub.png" class="socialmedia" alt="" />
+      </a>
+      <a href="https://www.linkedin.com/in/alfonso-n%C3%BA%C3%B1ez-64a9481b0/" target="_blank">
+        <img src="/img/Linked In.png" class="socialmedia" alt="" />
+      </a>
+    </section>
+
+    <!--My Work-->
+    <section class="my-work" id="work">
+      <h2 class="section__title">My Work</h2>
+      <p class="section__subtitle"></p>
+
+      <div class="portfolio">
+        <a href="https://desolate-shore-00305.herokuapp.com/" class="portfolio__item" target="_blank">
+          <img src="/img/tutiendita.png" alt="" class="portfolio__img" />
+        </a>
+        <a href="https://reginaafc.github.io/amusectionary/" class="portfolio__item" target="_blank">
+          <img src="/img/Amusectionary-Homepage.png" alt="" class="portfolio__img" />
+        </a>
+        <a href="https://00anp.github.io/Weather-Dashboard/" class="portfolio__item" target="_blank">
+          <img src="/img/WeatherDashboard-ScreenCapture.png" alt="" class="portfolio__img" />
+        </a>
+        <a href="https://arcane-falls-88442.herokuapp.com/" class="portfolio__item" target="_blank">
+            <img src="/img/ExpressNoteTaker.png" alt="" class="portfolio__img" />
+        </a>
+        <a href="https://00anp.github.io/Work-Day-Scheduler/" class="portfolio__item" target="_blank">
+          <img src="/img/WorkDay-ScreenCapture.JPG" alt="" class="portfolio__img" />
+        </a>
+        <a href="https://00anp.github.io/quizAppJS/index.html" class="portfolio__item" target="_blank">
+            <img src="/img/JavaScriptQuiz.png" alt="" class="portfolio__img" />
+          </a>
+      </div>
+    </section>
+
+    <!--Footer-->
+    <footer>
+      <a class="footer__link"
+        >Made with ❤️️ and HTML and CSS by 00anp!</a>
+    </footer>
+
+    <script src="js/index.js"></script>
+  </body>
+</html>
